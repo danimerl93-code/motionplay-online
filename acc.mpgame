@@ -1,0 +1,262 @@
+{
+  "Format": 1,
+  "GameId": "ACC",
+  "GameName": "Assetto Corsa Competizione",
+  "Version": 1,
+  "Notes": "Impostazioni di partenza.",
+  "Published": "2026-11-18T13:40:56.8282476+01:00",
+  "Profile": {
+    "Name": "ACC 2DOF",
+    "Game": "ACC",
+    "IntensityPercent": 100,
+    "ParkSpeed": 0.25,
+    "Dofs": [
+      {
+        "Dof": "Roll",
+        "FullScale": 10,
+        "GainPercent": 100,
+        "Invert": false,
+        "SmoothingMs": 20,
+        "WashoutSeconds": 0,
+        "DeadZone": 0
+      },
+      {
+        "Dof": "Pitch",
+        "FullScale": 10,
+        "GainPercent": 100,
+        "Invert": false,
+        "SmoothingMs": 20,
+        "WashoutSeconds": 0,
+        "DeadZone": 0
+      },
+      {
+        "Dof": "Yaw",
+        "FullScale": 180,
+        "GainPercent": 100,
+        "Invert": false,
+        "SmoothingMs": 0,
+        "WashoutSeconds": 1,
+        "DeadZone": 0
+      },
+      {
+        "Dof": "Heave",
+        "FullScale": 3,
+        "GainPercent": 100,
+        "Invert": false,
+        "SmoothingMs": 15,
+        "WashoutSeconds": 0.5,
+        "DeadZone": 0
+      },
+      {
+        "Dof": "Sway",
+        "FullScale": 3,
+        "GainPercent": 100,
+        "Invert": false,
+        "SmoothingMs": 30,
+        "WashoutSeconds": 3,
+        "DeadZone": 0
+      },
+      {
+        "Dof": "Surge",
+        "FullScale": 3,
+        "GainPercent": 100,
+        "Invert": false,
+        "SmoothingMs": 30,
+        "WashoutSeconds": 3,
+        "DeadZone": 0
+      },
+      {
+        "Dof": "TractionLoss",
+        "FullScale": 10,
+        "GainPercent": 100,
+        "Invert": false,
+        "SmoothingMs": 30,
+        "WashoutSeconds": 1,
+        "DeadZone": 0
+      },
+      {
+        "Dof": "RollRate",
+        "FullScale": 30,
+        "GainPercent": 100,
+        "Invert": false,
+        "SmoothingMs": 20,
+        "WashoutSeconds": 0,
+        "DeadZone": 0
+      },
+      {
+        "Dof": "PitchRate",
+        "FullScale": 30,
+        "GainPercent": 100,
+        "Invert": false,
+        "SmoothingMs": 20,
+        "WashoutSeconds": 0,
+        "DeadZone": 0
+      },
+      {
+        "Dof": "YawRate",
+        "FullScale": 60,
+        "GainPercent": 100,
+        "Invert": false,
+        "SmoothingMs": 20,
+        "WashoutSeconds": 0,
+        "DeadZone": 0
+      }
+    ],
+    "Axes": [
+      {
+        "Name": "Asse 1 (sinistro)",
+        "Placement": "FrontLeft",
+        "Controller": -1,
+        "Output": -1,
+        "Mix": [
+          {
+            "Dof": "Roll",
+            "Enabled": true,
+            "WeightPercent": 15,
+            "Invert": false
+          },
+          {
+            "Dof": "Pitch",
+            "Enabled": true,
+            "WeightPercent": 35,
+            "Invert": false
+          },
+          {
+            "Dof": "Yaw",
+            "Enabled": false,
+            "WeightPercent": 0,
+            "Invert": false
+          },
+          {
+            "Dof": "Heave",
+            "Enabled": false,
+            "WeightPercent": 0,
+            "Invert": false
+          },
+          {
+            "Dof": "Sway",
+            "Enabled": true,
+            "WeightPercent": 15,
+            "Invert": false
+          },
+          {
+            "Dof": "Surge",
+            "Enabled": true,
+            "WeightPercent": 35,
+            "Invert": false
+          },
+          {
+            "Dof": "TractionLoss",
+            "Enabled": false,
+            "WeightPercent": 0,
+            "Invert": false
+          },
+          {
+            "Dof": "RollRate",
+            "Enabled": false,
+            "WeightPercent": 0,
+            "Invert": false
+          },
+          {
+            "Dof": "PitchRate",
+            "Enabled": false,
+            "WeightPercent": 0,
+            "Invert": false
+          },
+          {
+            "Dof": "YawRate",
+            "Enabled": false,
+            "WeightPercent": 0,
+            "Invert": false
+          }
+        ],
+        "Invert": false,
+        "LimitPercent": 100,
+        "SoftLimitKnee": 0.85,
+        "SmoothingMs": 0,
+        "MaxSpeed": 4,
+        "MinCount": 150,
+        "MaxCount": 873,
+        "LowCount": 150,
+        "HighCount": 873
+      },
+      {
+        "Name": "Asse 2 (destro)",
+        "Placement": "FrontRight",
+        "Controller": -1,
+        "Output": -1,
+        "Mix": [
+          {
+            "Dof": "Roll",
+            "Enabled": true,
+            "WeightPercent": 15,
+            "Invert": true
+          },
+          {
+            "Dof": "Pitch",
+            "Enabled": true,
+            "WeightPercent": 35,
+            "Invert": false
+          },
+          {
+            "Dof": "Yaw",
+            "Enabled": false,
+            "WeightPercent": 0,
+            "Invert": false
+          },
+          {
+            "Dof": "Heave",
+            "Enabled": false,
+            "WeightPercent": 0,
+            "Invert": false
+          },
+          {
+            "Dof": "Sway",
+            "Enabled": true,
+            "WeightPercent": 15,
+            "Invert": true
+          },
+          {
+            "Dof": "Surge",
+            "Enabled": true,
+            "WeightPercent": 35,
+            "Invert": false
+          },
+          {
+            "Dof": "TractionLoss",
+            "Enabled": false,
+            "WeightPercent": 0,
+            "Invert": false
+          },
+          {
+            "Dof": "RollRate",
+            "Enabled": false,
+            "WeightPercent": 0,
+            "Invert": false
+          },
+          {
+            "Dof": "PitchRate",
+            "Enabled": false,
+            "WeightPercent": 0,
+            "Invert": false
+          },
+          {
+            "Dof": "YawRate",
+            "Enabled": false,
+            "WeightPercent": 0,
+            "Invert": false
+          }
+        ],
+        "Invert": false,
+        "LimitPercent": 100,
+        "SoftLimitKnee": 0.85,
+        "SmoothingMs": 0,
+        "MaxSpeed": 4,
+        "MinCount": 150,
+        "MaxCount": 873,
+        "LowCount": 150,
+        "HighCount": 873
+      }
+    ]
+  }
+}

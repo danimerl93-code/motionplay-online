@@ -1,0 +1,16 @@
+{
+  "Format": 1,
+  "MovedTo": null,
+  "App": null,
+  "Games": [
+    {
+      "Id": "ACC",
+      "Name": "Assetto Corsa Competizione",
+      "Version": 1,
+      "File": "games/acc.mpgame",
+      "Notes": "Impostazioni di partenza.",
+      "Updated": "2026-11-18",
+      "MinAppVersion": ""
+    }
+  ]
+}

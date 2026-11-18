@@ -2,11 +2,11 @@
   "Format": 1,
   "GameId": "ACC",
   "GameName": "Assetto Corsa Competizione",
-  "Version": 1,
-  "Notes": "Impostazioni di partenza.",
-  "Published": "2026-11-18T13:40:56.8282476+01:00",
+  "Version": 2,
+  "Notes": "",
+  "Published": "2026-11-18T16:36:17.3090274+01:00",
   "Profile": {
-    "Name": "ACC 2DOF",
+    "Name": "ACC 3DOF",
     "Game": "ACC",
     "IntensityPercent": 100,
     "ParkSpeed": 0.25,
@@ -111,13 +111,13 @@
         "Mix": [
           {
             "Dof": "Roll",
-            "Enabled": true,
+            "Enabled": false,
             "WeightPercent": 15,
             "Invert": false
           },
           {
             "Dof": "Pitch",
-            "Enabled": true,
+            "Enabled": false,
             "WeightPercent": 35,
             "Invert": false
           },
@@ -129,8 +129,8 @@
           },
           {
             "Dof": "Heave",
-            "Enabled": false,
-            "WeightPercent": 0,
+            "Enabled": true,
+            "WeightPercent": 20,
             "Invert": false
           },
           {
@@ -188,13 +188,13 @@
         "Mix": [
           {
             "Dof": "Roll",
-            "Enabled": true,
+            "Enabled": false,
             "WeightPercent": 15,
             "Invert": true
           },
           {
             "Dof": "Pitch",
-            "Enabled": true,
+            "Enabled": false,
             "WeightPercent": 35,
             "Invert": false
           },
@@ -206,15 +206,15 @@
           },
           {
             "Dof": "Heave",
-            "Enabled": false,
-            "WeightPercent": 0,
+            "Enabled": true,
+            "WeightPercent": 20,
             "Invert": false
           },
           {
             "Dof": "Sway",
             "Enabled": true,
             "WeightPercent": 15,
-            "Invert": true
+            "Invert": false
           },
           {
             "Dof": "Surge",
@@ -239,6 +239,83 @@
             "Enabled": false,
             "WeightPercent": 0,
             "Invert": false
+          },
+          {
+            "Dof": "YawRate",
+            "Enabled": false,
+            "WeightPercent": 0,
+            "Invert": false
+          }
+        ],
+        "Invert": false,
+        "LimitPercent": 100,
+        "SoftLimitKnee": 0.85,
+        "SmoothingMs": 0,
+        "MaxSpeed": 4,
+        "MinCount": 150,
+        "MaxCount": 873,
+        "LowCount": 150,
+        "HighCount": 873
+      },
+      {
+        "Name": "Asse 3",
+        "Placement": "RearCenter",
+        "Controller": -1,
+        "Output": -1,
+        "Mix": [
+          {
+            "Dof": "Roll",
+            "Enabled": false,
+            "WeightPercent": 15,
+            "Invert": false
+          },
+          {
+            "Dof": "Pitch",
+            "Enabled": false,
+            "WeightPercent": 35,
+            "Invert": true
+          },
+          {
+            "Dof": "Yaw",
+            "Enabled": false,
+            "WeightPercent": 0,
+            "Invert": false
+          },
+          {
+            "Dof": "Heave",
+            "Enabled": true,
+            "WeightPercent": 20,
+            "Invert": false
+          },
+          {
+            "Dof": "Sway",
+            "Enabled": false,
+            "WeightPercent": 15,
+            "Invert": false
+          },
+          {
+            "Dof": "Surge",
+            "Enabled": true,
+            "WeightPercent": 80,
+            "Invert": false
+          },
+          {
+            "Dof": "TractionLoss",
+            "Enabled": false,
+            "WeightPercent": 0,
+            "Invert": false
+          },
+          {
+            "Dof": "RollRate",
+            "Enabled": false,
+            "WeightPercent": 0,
+            "Invert": false
+          },
+          {
+            "Dof": "PitchRate",
+            "Enabled": false,
+            "WeightPercent": 0,
+            "Invert": true
           },
           {
             "Dof": "YawRate",

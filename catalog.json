@@ -6,9 +6,9 @@
     {
       "Id": "ACC",
       "Name": "Assetto Corsa Competizione",
-      "Version": 1,
+      "Version": 2,
       "File": "games/acc.mpgame",
-      "Notes": "Impostazioni di partenza.",
+      "Notes": "",
       "Updated": "2026-11-18",
       "MinAppVersion": ""
     }
